@@ -1,0 +1,23 @@
+body {
+  font-family: "JetBrains Mono", monospace;
+  font-family: "M PLUS 1 Code", sans-serif;
+}
+
+nav {
+  display: flex;
+  max-width: 100%;
+  background-color: #d7d7d9;
+  height: 60px;
+  align-content: center;
+}
+
+.logo {
+  background-color: magenta;
+  align-content: center;
+  min-width: 400px;
+  position: fixed;
+  left: 20px;
+  height: 60px;
+  font-size: large;
+  font-weight: 300;
+}

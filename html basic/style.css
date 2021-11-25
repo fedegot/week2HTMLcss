@@ -1,0 +1,65 @@
+#wrap{
+max-width: 100%;
+font-family: 'Roboto', sans-serif;
+padding: 10px;
+
+}
+
+
+
+/* PARENT */
+#fise{  
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    
+    }
+
+
+/* CHILD */ 
+#first{
+    background-color: lightgreen;
+    width: 50%;  /* Or whatever */
+  
+
+}
+#second{
+    background-color: rgb(255, 42, 0);
+    width: 50%;  /* Or whatever */
+   
+
+
+}
+
+
+nav {
+	position: sticky;
+	top: 0;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: lightgray;
+  }
+
+  nav a{
+    text-align: center;
+    margin: 0.25em;
+    padding: 0.25em;
+  }
+
+  .navlast {
+    margin: 10px;  
+    background-color: lightpink;
+    
+
+
+  }
+  .diff{
+    margin: 10px;  
+    background-color: lightgreen;
+    
+
+  }

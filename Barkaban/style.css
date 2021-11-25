@@ -1,0 +1,356 @@
+body {
+  /* margin-left: 70px;
+  margin-right: 70px; */
+  font-family: "Avenir LT 35 Light", "Playfair Display", serif;
+  margin: 0px;
+}
+
+#head {
+  display: flex;
+  align-content: center;
+  max-width: 100%;
+  height: 80px;
+  align-content: center;
+  font-family: "Playfair Display", serif;
+  margin-left: 75px;
+  width: auto;
+}
+#logonav {
+}
+
+.logo {
+  /* margin-top: 20px; */
+  margin-left: 0px;
+  min-width: 400px;
+  width: 80%;
+  left: 200px;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.navlast {
+  margin-top: 30px;
+  margin-left: 175px;
+}
+
+#startBody {
+  display: flex;
+  flex-wrap: wrap;
+  height: 920px;
+  /* align-self: center; */
+  background-image: url("./pic/index22.png");
+  background-size: auto;
+  background-attachment: fixed;
+  background-position: center;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  justify-content: center;
+  max-width: 10000px;
+}
+
+.imgs {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.containertxt {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 10000px;
+}
+
+.containertxt1 {
+  margin-top: 100px;
+
+  text-align: center;
+}
+
+.containertxt2 {
+  text-align: center;
+}
+
+.startBodytxt {
+  text-align: center;
+  color: white;
+  font-size: 72px;
+  font-family: "Playfair Display", serif;
+}
+
+.startBodytxt2 {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: "Avenir LT 35 Light";
+}
+
+.gap {
+  height: 200px;
+}
+
+.midd {
+}
+
+#middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 200px;
+}
+
+#middle1 {
+  text-align: center;
+}
+.first {
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+  color: #886f4a;
+}
+
+.second {
+  font-family: "Avenir LT 35 Light";
+  text-align: center;
+  line-height: 1.6;
+}
+
+.sausegepic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.middlebottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  background-color: #886f4a;
+  width: 100%;
+}
+
+.middlebottomTxt {
+  margin-top: 50px;
+  font-size: 45px;
+  font-family: "Playfair Display", serif;
+  color: white;
+}
+
+.bottom222 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #886f4a;
+  width: 100%;
+}
+
+.bottom1 {
+  background-image: url("./pic/bread1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 67%;
+  height: 560px;
+}
+
+.bottom2 {
+  justify-content: center;
+  align-items: center;
+  width: 34%;
+  height: 560px;
+}
+
+.bottomtextT {
+  margin-top: 150px;
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  font-family: "Playfair Display", serif;
+}
+
+.bottomtextTS {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  font-family: "Avenir LT 35 Light";
+  line-height: 2;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+/* ////////////////////////////////////////////////////// */
+.middlebottom2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  background-color: #886f4a;
+  width: 100%;
+}
+.bottom333 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #886f4a;
+  width: 100%;
+}
+
+.bottom12 {
+  justify-content: center;
+  align-items: center;
+  width: 34%;
+  height: 560px;
+}
+
+.bottom21 {
+  background-image: url("./pic/bread2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 67%;
+  height: 560px;
+}
+
+.bottomtextT1 {
+  margin-top: 150px;
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  font-family: "Playfair Display", serif;
+}
+
+.bottomtextT2 {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  font-family: "Avenir LT 35 Light";
+  line-height: 2;
+}
+/* ////////////////////////////////////////////////////// */
+
+.bottom11 {
+  background-image: url("./pic/bread3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 67%;
+  height: 560px;
+}
+
+/* ////////////////////////////////////////////////////// */
+
+.bottom211 {
+  background-image: url("./pic/bread4.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 67%;
+  height: 560px;
+}
+
+/* ////////////////////////////////////////////////////// */
+
+.bottom113 {
+  background-image: url("./pic/bread5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 67%;
+  height: 560px;
+}
+
+/* ////////////////////////////////////////////////////// */
+
+.bottom2121 {
+  background-image: url("./pic/bread6.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 67%;
+  height: 560px;
+}
+/* ////////////////////////////////////////////////////// */
+
+.bottom666 {
+  background-image: url("./pic/bread7.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 67%;
+  height: 560px;
+}
+
+/* ////////////////////////////////////////////////////// */
+
+.bottom777 {
+  background-image: url("./pic/bread8.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 67%;
+  height: 560px;
+}
+
+/* ////////////////////////////////////////////////////// */
+
+#bodyend {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  width: 100%;
+}
+
+/* ////////////////////////////////////////////////////// */
+
+#breadlist {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+  height: 400px;
+  margin-top: 100px;
+}
+
+.bt {
+  
+  flex: 1;
+}
+
+.ct {
+  
+  flex: 1;
+}
+
+.dt {
+  
+  flex: 1;
+}
+
+/* ////////////////////////////////////////////////////// */
+
+.breadinfo {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+
+}
+
+.responsive{
+    width: 100%;
+    height: auto;
+
+}
+
+.responsive1{
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+    color: #886f4a;
+}
+
+.resp{
+flex: 1;
+
+}
